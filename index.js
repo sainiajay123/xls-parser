@@ -46,7 +46,7 @@ function onLoadEvent(binary, reader) {
 		parsedXls.push(element);
 	}
 
-	return {data: parsedXls, headers};
+	return {data: parsedXls, headers: headers};
 }
 
 function getLastRowCol(cells) {
